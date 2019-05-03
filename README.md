@@ -152,7 +152,7 @@ This command will make use of the configuration in our `workbox-config.js` to ge
 
 > **Note**: before running this command, make sure that you have built your application (in other words your `deployment/web` folder is not empty) by running the app locally this folder will be generated.
 
-Now everything is set, re-rurn your app and it has all the required settings/files for a PWA, you can check if you're app has become a PWA using [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
+🚀🚀 Now everything is set, re-rurn your app and it has all the required settings/files for a PWA, you can check if you're app has become a PWA using [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
 
 
 
