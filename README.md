@@ -2,6 +2,11 @@
 
 In this __How to!__ we'll see how we can convert our mendix app to a PWA and enable precaching for the static resources using [Workbox](https://developers.google.com/web/tools/workbox/).
 
+<p align='center'>
+<img src='https://github.com/omnajjar/MxPWA/blob/development/mendix_pwa.png' width="375px" alt='logo'>
+</p>
+
+
 ## Prerequisites:
 
 1. You need to have [Nodejs](https://nodejs.org/en/) installed on your machine.
