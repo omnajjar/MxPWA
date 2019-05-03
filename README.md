@@ -158,7 +158,7 @@ This command will make use of the configuration in our `workbox-config.js` to ge
 
 **4.** Repeat.
 
-Perform this command each time you have change in your static assets (new mendix pages are also considered static assets).
+Perform this command each time you have change in your static assets (mendix pages are also considered static assets).
 > You're most likely going to perform this only before creating your (test/accpetance/production) build.
 
 
