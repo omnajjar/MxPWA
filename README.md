@@ -134,6 +134,7 @@ __>>__ add the following script before the closing `body` tag:
       </body>
       ....
 ```
+Your `index.html` file should look like this example file: [index.example.html](https://github.com/omnajjar/MxPWA/blob/master/index.example.html).
 > **Note**: If you're targeting IOS devices, please consider checking this [article](https://medium.com/appscope/designing-native-like-progressive-web-apps-for-ios-1b3cdda1d0e8) as well, as we are here focusing on android devices.
 
 **3.** Generating service worker using workbox.

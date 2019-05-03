@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Mendix</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css?{{cachebust}}">
+        <link rel="stylesheet" href="mxclientsystem/mxui/ui/mxui.css?{{cachebust}}">
+        <meta name="description" content="This a Mendix PWA Starter App.">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="manifest" href="/manifest.json">
+
+        {{themecss}}
+
+        <!-- ICONS EXAMPLE -->
+
+        <!-- iPhone retina icon (iOS < 7) -->
+        <!-- <link href="resources/ios/icons/apple-touch-icon-precomposed-114x114.png" sizes="114x114" rel="apple-touch-icon-precomposed"> -->
+
+        <!-- STARTUP IMAGES -->
+        <!-- <link href="resources/ios/startup/apple-touch-startup-image-1496x2048.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" rel="apple-touch-startup-image"> -->
+
+    </head>
+    <body dir="ltr">
+        <noscript>
+            <div class="noscript-container">
+                <h3>Please enable javascript in your browser</h3>
+                <h4><a class="mx-link" href='https://www.wikihow.com/Enable-JavaScript'>How to enable javascript in my browser</a></h4>
+            </div>
+        </noscript>
+        <div id="content"></div>
+        <script>
+            dojoConfig = {
+                baseUrl: "mxclientsystem/dojo/",
+                cacheBust: "{{cachebust}}",
+                rtlRedirect: "index-rtl.html"
+            };
+        </script>
+        <script>
+            if (!document.cookie || !document.cookie.match(/(^|;)originURI=/gi))
+                document.cookie = "originURI=/login.html";
+        </script>
+        <script src="mxclientsystem/mxui/mxui.js?{{cachebust}}"></script>
+        <script src="swRegister.js"></script>
+    </body>
+</html>
