@@ -13,6 +13,7 @@ module.exports = {
       "font-set-1",
   },
   // here you set URLs patterns for the resources the will be requested in runtime, or later by user interaction
+  // you may will customize this for the needs of your application
   runtimeCaching: [
     {
       // Match any same-origin request that contains has the following path.
