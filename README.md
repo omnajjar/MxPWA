@@ -7,6 +7,8 @@ In this __How to!__ we'll see how we can convert our mendix app to a PWA and ena
 </p>
 
 
+***
+
 ## Prerequisites:
 
 1. You need to have [Nodejs](https://nodejs.org/en/) installed on your machine.
