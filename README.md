@@ -18,7 +18,7 @@ In this __How to!__ we'll see how we can convert our mendix app to a PWA and ena
 ```sh
 > npm install workbox-cli --global
 ```
-3. You need to have [Lighthouse](https://developers.google.com/web/tools/lighthouse/) on you machine (You can skip this step if you have chrome installed on your machine).
+3. You need to have [Lighthouse](https://developers.google.com/web/tools/lighthouse/) on your machine (You can skip this step if you have chrome installed on your machine).
 
 4. The explanation is assuming that you have a blank mendix app (this does __NOT__ mean that you cannot use it for an existing app, but rather for the seek of clarity in folder structures and naming conventions).
 
@@ -118,7 +118,7 @@ __>>__ add the following tags inside your `<head>...</head>` tag:
 __>>__ add the following `<noscript>...</noscript>` tag inside your `<body>...</body>` tag:
 ```html
         <noscript>
-            <div class="noscript-container">
+            <div class="container noscript-container">
                 <h3>Please enable javascript in your browser</h3>
                 <h4><a class="mx-link" href='https://www.wikihow.com/Enable-JavaScript'>How to enable javascript in my browser</a></h4>
             </div>
@@ -150,7 +150,7 @@ __>>__ Open your command line in your `MX_APP_ROOT_FOLDER` and run the following
 ```sh
 > workbox generateSW
 ```
-This command will make use of the configuration in our `workbox-config.js` to generate a service worker `sw.js` in the `theme` folder of our app.
+This command will make use of the configurations in our `workbox-config.js` to generate a service worker `sw.js` in the `theme` folder of our app.
 
 > **Note**: before running this command, make sure that you have built your application (in other words your `deployment/web` folder is not empty) by running the app locally this folder will be generated.
 
